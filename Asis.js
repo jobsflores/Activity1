@@ -20,7 +20,7 @@ const { brand, model, year } = car;
 const { owner: { name, age } } = car;
 
 console.log("Car Info:", brand, model, year); 
-console.log("Owner:", name, age); 
+console.log("Owner:", name, "age:", age); 
 
 
 const grades = [75, 80, 90];
